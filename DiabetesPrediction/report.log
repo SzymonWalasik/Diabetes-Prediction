@@ -1,8 +1,0 @@
-2023-05-11 22:36:01,335 - pyswarms.backend.generators - ERROR - generate_discrete_swarm() takes an int for n_particles and dimensions
-Traceback (most recent call last):
-  File "C:\Python311\Lib\site-packages\pyswarms\backend\generators.py", line 135, in generate_discrete_swarm
-    pos = np.random.randint(2, size=(n_particles, dimensions))
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "mtrand.pyx", line 746, in numpy.random.mtrand.RandomState.randint
-  File "_bounded_integers.pyx", line 1347, in numpy.random._bounded_integers._rand_int32
-TypeError: 'list' object cannot be interpreted as an integer
